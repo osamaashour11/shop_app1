@@ -30,7 +30,7 @@ class DioHelper {
     required Map<String, dynamic> data,
     Map<String, dynamic>? query,
   }) async {
-    return dio.put(
+    return dio.post(
       url,
       data: data,
       queryParameters: query,
